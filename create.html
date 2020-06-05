@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="ICON" href="img/tab.ico" type="image/ico" />
+
+<body style="background: linear-gradient(to bottom left, #669999 44%, #66ffff 92%);">
+
+
+<div>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light text-primary border-bottom border-primary " id="navbar2 "style="height: 80px;">
+  <a class="navbar-brand" href="index.html">
+    <img id="logo" height="70px" width="150px" src="img/logo1.png">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText ">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html" id="white"><i class="fa fa-home text-primary fixed" aria-hidden="true" style="font-size: 25px"></i></span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="eyeglasses.html" id="white">Eye Glasses <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="sunglasses.html" id="white">Sun Glasses</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="lenses.html" id="white">Lenses</a>
+      </li>
+    </ul>
+    <span class="navbar-text">
+      <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+        <a class="nav-link" id="white" href="#">Call: 03313767649 <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="white" href="signin.html">Sign In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="white" href="create.html">Create An Acount</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link text-secondary" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item">
+       <a class="nav-link text-danger" href="#"> <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-secondary" href="#"><i class="fa fa-user-circle" aria-hidden="true"></i></a>
+      </li>
+
+    </ul>
+    </span>
+  </div>
+</nav>
+</div>
+	<div id="main-wrapper">
+	<center><h2 style="margin-top: 80px">CREATE ACCOUNT</h2></center>
+	<form class="myform" action="register.php" method="post">
+	    <label><b>Username</label><br>
+	    <input name="username" type="text" class="inputvalues" placeholder="Type your Username" required><br>
+	    <label><b>Email</label><br>
+	    <input name="email" type="text" class="inputvalues" placeholder="Type your Email" required><br>
+	    <label><b>Password</label><br>
+		<input name="password" type="Password" class="inputvalues" placeholder="Your Password" required><br>
+      <label><b>Confirm Password</label><br>
+    <input name="cpassword" type="Password" class="inputvalues" placeholder="Confirm Password" required><br>
+		<button name="submit_btn" type="submit" id="signup_btn" class="btn btn-success btn-lg btn-block ">Sign Up</button>
+		<a href="index.html"><button type="button" id="back_btn" class="btn btn-primary btn-lg btn-block">Back</button></a>
+	</form>
+	
+</div>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</body>
+</html>

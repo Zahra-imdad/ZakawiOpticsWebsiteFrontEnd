@@ -1,0 +1,164 @@
+
+#navbar1{
+	background-color: grey  !important;
+	font-weight: bold;
+	/*position: fixed !important;
+	overflow: hidden !important;
+  width: 100% !important;
+  top: 0 !important;*/
+
+}
+#navbar2{
+	background-color: #AED6F1  !important;
+	font-weight: bold !important;
+	/*position: fixed !important;
+	overflow: hidden !important;
+  width: 100% !important;
+  top: 70px !important;*/
+}
+
+/*.main {
+  margin-top: 	150px;  Add a top margin to avoid content overlay 
+}*/
+#white:hover{
+	background-color: white !important;
+    text-shadow: 0 0 1px white , 0 0 5px #3498DB !important;
+    border-radius: 25px;
+}
+#logo{
+	font-size: 5px !important;
+}
+.fa-truck {
+	font-size: 40px !important;
+}
+.fa-shopping-cart,.fa-user-circle{
+	font-size: 25px !important;
+}
+.fa-search{
+	font-size: 25px !important;
+}
+/* Container holding the image and the text */
+.div3{
+	margin-top: 20px !important;
+}
+.card{
+	height: auto !important;
+	width: auto !important;
+}
+.card-title{
+	font-weight: bold !important;
+}
+
+.copyright{
+	text-align: center !important;
+	background-color: black !important;
+	color: white !important;
+}
+.feature_item{
+	box-shadow: 5px 10px #888888 !important;
+}
+#main-wrapper
+{
+
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 20px;
+	background: white;
+	padding: 5px;
+	border-radius: 10px;
+	border: 2px solid #70a1ff;
+}
+
+.myform
+{
+	
+	width: 450px;
+	margin : 0 auto; 
+	margin-top: 60px;
+}
+
+.inputvalues
+{
+	width: 450px;
+	margin: 0 auto;
+	padding: 10px;
+}
+#login_btn
+{
+	margin-top: 50px;
+}
+#register_btn
+{
+	margin-top: 20px;
+	margin-bottom: 20px; 
+}
+#signup_btn
+{
+	margin-top: 20px;
+}
+#back_btn
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.card-img-top{
+	height: 150px;
+	width: 200px;
+}
+legend{
+	text-align: center;
+	text-shadow: 0 0 1px white , 0 0 5px #3498DB !important;
+   
+}
+.card{
+	border:hidden;
+	box-shadow: 4px 4px 8px 0 #AED6F1;
+}
+.card-text:hover{
+	font-size: 25px;
+	
+}
+.card-text{
+	color: red;
+}
+.card-title:hover{
+	font-size: 25px;
+}
+#cardbtn{
+	width: 100%;
+	border-radius: 10px;
+}
+#cardbtn:hover{
+	border-radius: 25px;
+	background-color: green;
+
+}
+.page-footer{
+	color: black;
+	background: lightgrey;
+}
+#fb,#insta{
+	font-size: 30px;
+	color: red;
+}
+.fa-square{
+	color: blue;
+}
+a{
+	text-decoration: none !important;
+	color: black !important; 
+}
+.Copyright{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+.fa-copyright{
+	color: white;
+}
+.footer a:hover{
+	font-size: 20px;
+	background-color: white !important;
+    text-shadow: 0 0 1px white , 0 0 5px #3498DB !important;
+    border-radius: 10px;
+}
